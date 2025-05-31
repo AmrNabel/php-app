@@ -1,0 +1,398 @@
+Mar 18 01:10:18 srv758160 systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27360.[0m
+Mar 18 01:10:18 srv758160 nginx[13378]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 18 01:10:18 srv758160 nginx[13378]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 18 01:10:19 srv758160 nginx[13378]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 18 01:10:19 srv758160 nginx[13378]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 18 01:10:20 srv758160 nginx[13378]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 18 01:10:20 srv758160 nginx[13378]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 18 01:10:20 srv758160 nginx[13378]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 18 01:10:20 srv758160 nginx[13378]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 18 01:10:21 srv758160 nginx[13378]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 18 01:10:21 srv758160 nginx[13378]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 18 01:10:21 srv758160 nginx[13378]: nginx: [emerg] still could not bind()
+Mar 18 01:10:21 srv758160 systemd[1]: [0;1;39m[0;1;31m[0;1;39mnginx.service: Control process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit nginx.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Mar 18 01:10:21 srv758160 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnginx.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit nginx.service has entered the 'failed' state with result 'exit-code'.[0m
+Mar 18 01:10:21 srv758160 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start nginx.service - A high performance web server and a reverse proxy server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27360 and the job result is failed.[0m
+Mar 19 02:35:50 srv758160 systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 56993.[0m
+Mar 19 02:35:50 srv758160 nginx[30609]: 2025/03/19 02:35:50 [emerg] 30609#30609: cannot load certificate "/etc/fullchain.pem": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/fullchain.pem, r) error:10000080:BIO routines::no such file)
+Mar 19 02:35:50 srv758160 nginx[30609]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Mar 19 02:35:50 srv758160 systemd[1]: [0;1;39m[0;1;31m[0;1;39mnginx.service: Control process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStartPre= process belonging to unit nginx.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Mar 19 02:35:50 srv758160 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnginx.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit nginx.service has entered the 'failed' state with result 'exit-code'.[0m
+Mar 19 02:35:50 srv758160 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start nginx.service - A high performance web server and a reverse proxy server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 56993 and the job result is failed.[0m
+Mar 19 02:41:19 srv758160 systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 57305.[0m
+Mar 19 02:41:19 srv758160 nginx[30691]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:41:19 srv758160 nginx[30691]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:41:19 srv758160 nginx[30691]: nginx: [emerg] bind() to 0.0.0.0:443 failed (98: Address already in use)
+Mar 19 02:41:20 srv758160 nginx[30691]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:41:20 srv758160 nginx[30691]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:41:20 srv758160 nginx[30691]: nginx: [emerg] bind() to 0.0.0.0:443 failed (98: Address already in use)
+Mar 19 02:41:20 srv758160 nginx[30691]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:41:20 srv758160 nginx[30691]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:41:20 srv758160 nginx[30691]: nginx: [emerg] bind() to 0.0.0.0:443 failed (98: Address already in use)
+Mar 19 02:41:21 srv758160 nginx[30691]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:41:21 srv758160 nginx[30691]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:41:21 srv758160 nginx[30691]: nginx: [emerg] bind() to 0.0.0.0:443 failed (98: Address already in use)
+Mar 19 02:41:21 srv758160 nginx[30691]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:41:21 srv758160 nginx[30691]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:41:21 srv758160 nginx[30691]: nginx: [emerg] bind() to 0.0.0.0:443 failed (98: Address already in use)
+Mar 19 02:41:22 srv758160 nginx[30691]: nginx: [emerg] still could not bind()
+Mar 19 02:41:22 srv758160 systemd[1]: [0;1;39m[0;1;31m[0;1;39mnginx.service: Control process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit nginx.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Mar 19 02:41:22 srv758160 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnginx.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit nginx.service has entered the 'failed' state with result 'exit-code'.[0m
+Mar 19 02:41:22 srv758160 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start nginx.service - A high performance web server and a reverse proxy server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 57305 and the job result is failed.[0m
+Mar 19 02:43:36 srv758160 systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 57409.[0m
+Mar 19 02:43:36 srv758160 nginx[30708]: 2025/03/19 02:43:36 [emerg] 30708#30708: invalid host in "[::]3001" of the "listen" directive in /etc/nginx/sites-enabled/default:81
+Mar 19 02:43:36 srv758160 nginx[30708]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Mar 19 02:43:36 srv758160 systemd[1]: [0;1;39m[0;1;31m[0;1;39mnginx.service: Control process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStartPre= process belonging to unit nginx.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Mar 19 02:43:36 srv758160 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnginx.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit nginx.service has entered the 'failed' state with result 'exit-code'.[0m
+Mar 19 02:43:36 srv758160 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start nginx.service - A high performance web server and a reverse proxy server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 57409 and the job result is failed.[0m
+Mar 19 02:45:28 srv758160 systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 57513.[0m
+Mar 19 02:45:28 srv758160 nginx[30725]: 2025/03/19 02:45:28 [emerg] 30725#30725: invalid host in "[::]3001" of the "listen" directive in /etc/nginx/sites-enabled/default:81
+Mar 19 02:45:28 srv758160 nginx[30725]: nginx: configuration file /etc/nginx/nginx.conf test failed
+Mar 19 02:45:28 srv758160 systemd[1]: [0;1;39m[0;1;31m[0;1;39mnginx.service: Control process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStartPre= process belonging to unit nginx.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Mar 19 02:45:28 srv758160 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnginx.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit nginx.service has entered the 'failed' state with result 'exit-code'.[0m
+Mar 19 02:45:28 srv758160 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start nginx.service - A high performance web server and a reverse proxy server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 57513 and the job result is failed.[0m
+Mar 19 02:49:46 srv758160 systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 57617.[0m
+Mar 19 02:49:46 srv758160 nginx[30760]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:49:46 srv758160 nginx[30760]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:49:46 srv758160 nginx[30760]: nginx: [emerg] bind() to 0.0.0.0:3001 failed (98: Address already in use)
+Mar 19 02:49:47 srv758160 nginx[30760]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:49:47 srv758160 nginx[30760]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:49:47 srv758160 nginx[30760]: nginx: [emerg] bind() to 0.0.0.0:3001 failed (98: Address already in use)
+Mar 19 02:49:47 srv758160 nginx[30760]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:49:47 srv758160 nginx[30760]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:49:47 srv758160 nginx[30760]: nginx: [emerg] bind() to 0.0.0.0:3001 failed (98: Address already in use)
+Mar 19 02:49:48 srv758160 nginx[30760]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:49:48 srv758160 nginx[30760]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:49:48 srv758160 nginx[30760]: nginx: [emerg] bind() to 0.0.0.0:3001 failed (98: Address already in use)
+Mar 19 02:49:48 srv758160 nginx[30760]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:49:48 srv758160 nginx[30760]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:49:48 srv758160 nginx[30760]: nginx: [emerg] bind() to 0.0.0.0:3001 failed (98: Address already in use)
+Mar 19 02:49:49 srv758160 nginx[30760]: nginx: [emerg] still could not bind()
+Mar 19 02:49:49 srv758160 systemd[1]: [0;1;39m[0;1;31m[0;1;39mnginx.service: Control process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit nginx.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Mar 19 02:49:49 srv758160 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnginx.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit nginx.service has entered the 'failed' state with result 'exit-code'.[0m
+Mar 19 02:49:49 srv758160 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start nginx.service - A high performance web server and a reverse proxy server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 57617 and the job result is failed.[0m
+Mar 19 02:54:38 srv758160 systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 58257.[0m
+Mar 19 02:54:38 srv758160 nginx[30934]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:54:38 srv758160 nginx[30934]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:54:38 srv758160 nginx[30934]: nginx: [emerg] bind() to 0.0.0.0:3001 failed (98: Address already in use)
+Mar 19 02:54:38 srv758160 nginx[30934]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:54:38 srv758160 nginx[30934]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:54:38 srv758160 nginx[30934]: nginx: [emerg] bind() to 0.0.0.0:3001 failed (98: Address already in use)
+Mar 19 02:54:39 srv758160 nginx[30934]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:54:39 srv758160 nginx[30934]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:54:39 srv758160 nginx[30934]: nginx: [emerg] bind() to 0.0.0.0:3001 failed (98: Address already in use)
+Mar 19 02:54:39 srv758160 nginx[30934]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:54:39 srv758160 nginx[30934]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:54:39 srv758160 nginx[30934]: nginx: [emerg] bind() to 0.0.0.0:3001 failed (98: Address already in use)
+Mar 19 02:54:40 srv758160 nginx[30934]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:54:40 srv758160 nginx[30934]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:54:40 srv758160 nginx[30934]: nginx: [emerg] bind() to 0.0.0.0:3001 failed (98: Address already in use)
+Mar 19 02:54:40 srv758160 nginx[30934]: nginx: [emerg] still could not bind()
+Mar 19 02:54:40 srv758160 systemd[1]: [0;1;39m[0;1;31m[0;1;39mnginx.service: Control process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit nginx.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Mar 19 02:54:40 srv758160 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnginx.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit nginx.service has entered the 'failed' state with result 'exit-code'.[0m
+Mar 19 02:54:40 srv758160 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start nginx.service - A high performance web server and a reverse proxy server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 58257 and the job result is failed.[0m
+Mar 19 02:56:52 srv758160 systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 58361.[0m
+Mar 19 02:56:52 srv758160 nginx[30960]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:56:52 srv758160 nginx[30960]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:56:53 srv758160 nginx[30960]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:56:53 srv758160 nginx[30960]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:56:53 srv758160 nginx[30960]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:56:53 srv758160 nginx[30960]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:56:54 srv758160 nginx[30960]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:56:54 srv758160 nginx[30960]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:56:54 srv758160 nginx[30960]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:56:54 srv758160 nginx[30960]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:56:55 srv758160 nginx[30960]: nginx: [emerg] still could not bind()
+Mar 19 02:56:55 srv758160 systemd[1]: [0;1;39m[0;1;31m[0;1;39mnginx.service: Control process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit nginx.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Mar 19 02:56:55 srv758160 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnginx.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit nginx.service has entered the 'failed' state with result 'exit-code'.[0m
+Mar 19 02:56:55 srv758160 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start nginx.service - A high performance web server and a reverse proxy server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 58361 and the job result is failed.[0m
+Mar 19 02:57:25 srv758160 systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 58465.[0m
+Mar 19 02:57:25 srv758160 nginx[30968]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:57:25 srv758160 nginx[30968]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:57:25 srv758160 nginx[30968]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:57:25 srv758160 nginx[30968]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:57:26 srv758160 nginx[30968]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:57:26 srv758160 nginx[30968]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:57:26 srv758160 nginx[30968]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:57:26 srv758160 nginx[30968]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:57:27 srv758160 nginx[30968]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 02:57:27 srv758160 nginx[30968]: nginx: [emerg] bind() to [::]:80 failed (98: Address already in use)
+Mar 19 02:57:27 srv758160 nginx[30968]: nginx: [emerg] still could not bind()
+Mar 19 02:57:27 srv758160 systemd[1]: [0;1;39m[0;1;31m[0;1;39mnginx.service: Control process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit nginx.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Mar 19 02:57:27 srv758160 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnginx.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit nginx.service has entered the 'failed' state with result 'exit-code'.[0m
+Mar 19 02:57:27 srv758160 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start nginx.service - A high performance web server and a reverse proxy server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 58465 and the job result is failed.[0m
+Mar 19 03:00:53 srv758160 systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 58781.[0m
+Mar 19 03:00:53 srv758160 nginx[31083]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 03:00:53 srv758160 nginx[31083]: nginx: [emerg] bind() to 0.0.0.0:3001 failed (98: Address already in use)
+Mar 19 03:00:54 srv758160 nginx[31083]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 03:00:54 srv758160 nginx[31083]: nginx: [emerg] bind() to 0.0.0.0:3001 failed (98: Address already in use)
+Mar 19 03:00:54 srv758160 nginx[31083]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 03:00:54 srv758160 nginx[31083]: nginx: [emerg] bind() to 0.0.0.0:3001 failed (98: Address already in use)
+Mar 19 03:00:55 srv758160 nginx[31083]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 03:00:55 srv758160 nginx[31083]: nginx: [emerg] bind() to 0.0.0.0:3001 failed (98: Address already in use)
+Mar 19 03:00:55 srv758160 nginx[31083]: nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+Mar 19 03:00:55 srv758160 nginx[31083]: nginx: [emerg] bind() to 0.0.0.0:3001 failed (98: Address already in use)
+Mar 19 03:00:56 srv758160 nginx[31083]: nginx: [emerg] still could not bind()
+Mar 19 03:00:56 srv758160 systemd[1]: [0;1;39m[0;1;31m[0;1;39mnginx.service: Control process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit nginx.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Mar 19 03:00:56 srv758160 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnginx.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit nginx.service has entered the 'failed' state with result 'exit-code'.[0m
+Mar 19 03:00:56 srv758160 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start nginx.service - A high performance web server and a reverse proxy server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 58781 and the job result is failed.[0m
